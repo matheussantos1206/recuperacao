@@ -1,0 +1,72 @@
+nav#menu ul{
+    text-transform: uppercase;
+    list-style: none;
+    position: absolute;
+    top: 40px;
+    left: 500px;
+}
+
+nav#menu{
+    display: block;
+}
+nav#menu li{
+    display: inline-block;
+    background-color: rgba(11, 13, 161, 0.541);
+    padding: 5px;
+}
+nav#menu h1{
+    display: none;
+}
+body{
+    background-color:  rgba(11, 13, 161, 0.541);
+    font-family: sans-serif;
+}
+header{
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 80px;
+    position: relative;
+}
+img{
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+}
+nav#menu a:link{
+    text-decoration: none;
+    color:  rgba(11, 13, 161, 0.541);
+}
+nav#menu a:visited{
+    color:  rgba(11, 13, 161, 0.541);
+}
+nav#menu a:hover{
+    color: rgba(11, 13, 161, 0.541);
+    transition: all 0.8s ease;
+}
+h4 {
+    color: rgb(92, 53, 90);
+}
+h2 {
+    color: rgb(92, 53, 90);
+}
+table, tr, th{
+    background-color: rgb(253, 207, 239);
+}
+table, tr, th{
+    border: solid 1px rgb(240, 56, 185);
+}
+table{
+    border-collapse: collapse;
+}
+tr{
+    width: 150px;
+    font-size: 20px;
+}
+th{
+    background-color: rgb(235, 140, 210);
+}
+th, tr {
+    padding: 15px;
+    text-align: left;
+}
